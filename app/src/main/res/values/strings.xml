@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomGallery</string>
+    <string name="customGallery">Custom Gallery</string>
+    <string name="mainTitle">Select MultipleImages From Gallery</string>
+    <string name="openCustomGallery">Open Custom Gallery</string>
+    <string name="selectedImages">Selected Images will be displayed below</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

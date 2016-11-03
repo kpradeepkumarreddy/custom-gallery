@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/mainTitle"
+        android:textColor="#00BCD4"
+        android:textSize="18sp" />
+
+    <!-- Button to Open Custom gallery -->
+    <Button
+        android:id="@+id/openCustomGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:text="@string/openCustomGallery"
+        android:textColor="#009688"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"
+        android:background="#616161" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/selectedImages"
+        android:textColor="#9e9e9e"
+        android:textSize="14sp" />
+
+    <!--  Grid View to display Selected Images-->
+    <include
+        android:id="@+id/selectedImagesGridView"
+        layout="@layout/gridview_layout" />
+
+</LinearLayout>

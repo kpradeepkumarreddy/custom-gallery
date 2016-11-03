@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#000"
+    android:id="@+id/tvPosition"
+    android:textColor="#fff"
+    android:text="1/30"
+    android:gravity="center"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ivSwipe"
+    android:scaleType="fitCenter"
+    android:layout_below="@+id/tvPosition"
+    android:src="@drawable/ic_done_black_24dp"/>
+</RelativeLayout>
